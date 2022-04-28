@@ -69,3 +69,9 @@ variable "storage_container_name" {
   type        = string
   default     = null
 }
+
+variable "signed_version" {
+  description = " (Optional) Specifies the signed storage service version to use to authorize requests made with this account SAS. Defaults to 2017-07-29."
+  type        = string
+  default     = "2017-07-29"
+}
